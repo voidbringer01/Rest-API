@@ -1,0 +1,19 @@
+{
+  "name": "restapi-example",
+  "version": "1.0.0",
+  "description": "Simple Rest API made with Node, Express and MySQL.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voidbringer01/Rest-API.git"
+  },
+  "author": "Dzemil Sejdija",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/voidbringer01/Rest-API/issues"
+  },
+  "homepage": "https://github.com/voidbringer01/Rest-API#readme"
+}
