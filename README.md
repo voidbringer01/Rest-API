@@ -15,3 +15,5 @@ Tests are written with Jest and documentation available at `/api-docs` is genera
   - DB_NAME
   - JWT_SECRET
 - Run your app with `npm start`
+## Further
+- To run the tests type `npm test`
