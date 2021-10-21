@@ -4,7 +4,9 @@
   "description": "Simple Rest API made with Node, Express and MySQL.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index",
+    "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,18 @@
   "bugs": {
     "url": "https://github.com/voidbringer01/Rest-API/issues"
   },
-  "homepage": "https://github.com/voidbringer01/Rest-API#readme"
+  "homepage": "https://github.com/voidbringer01/Rest-API#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.2",
+    "sequelize": "^6.7.0",
+    "swagger-jsdoc": "^6.1.0",
+    "swagger-ui-express": "^4.1.6"
+  },
+  "devDependencies": {
+    "jest": "^27.3.1",
+    "supertest": "^6.1.6"
+  }
 }

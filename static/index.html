@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rest API Example</title>
+    <link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">Employees API</h1>
+        <div id="not-authenticated">
+            <a href="#" id="auth-btn">Authenticate me</a>
+        </div>
+        
+        <div id="authenticated">
+            <form class="form" method="POST" id="add-form">
+                <div class="form-input">
+                    <label for="name">
+                        Name:
+                    </label>
+                    <input type="text" name="name" id="name" placeholder="eg. John Doe">
+                    <span class="error"></span>
+                </div>
+                <div class="form-input">
+                    <label for="email">
+                        Email:
+                    </label>
+                    <input type="email" name="email" id="email" placeholder="eg. johndoe@gmail.com">
+                    <span class="error"></span>
+                </div>
+                <div class="form-input">
+                    <label for="phone">
+                        Phone:
+                    </label>
+                    <input type="text" name="phone" id="phone" placeholder="eg. 066060950">
+                    <span class="error"></span>
+                </div>
+                <div class="form-input">
+                    <label for="city">
+                        City:
+                    </label>
+                    <input type="text" name="city" id="city" placeholder="eg. Novi Pazar">
+                    <span class="error"></span>
+                </div>
+                <div class="form-input">
+                    <label for="zipcode">
+                        Zipcode:
+                    </label>
+                    <input type="text" name="zipcode" id="zipcode" placeholder="eg. 36300">
+                    <span class="error"></span>
+                </div>
+                <div class="form-input">
+                    <label for="street">
+                        Street name:
+                    </label>
+                    <input type="text" name="street" id="street" placeholder="eg. Kraljevica Marka 2">
+                    <span class="error"></span>
+                </div>
+                <div class="form-input">
+                    <label for="date_of_birth">
+                        Date of birth:
+                    </label>
+                    <input type="date" name="date_of_birth" id="date_of_birth">
+                    <span class="error"></span>
+                </div>
+                <div class="form-submits">
+                    <input type="submit" value="Add employee" id="add-employee">
+                    <button id="edit-employee"> Edit employee </button>
+                </div>
+            </form>
+            <div class="card-list" id="list">
+            </div>
+            <a href="#" id="logout-btn">Log me out</a>
+        </div>
+    </div>
+   
+    <script src="/index.js"></script>
+</body>
+</html>
